@@ -1,0 +1,6 @@
+pip>=25.0.1
+streamlit
+chromadb>=0.4.0
+pysqlite3-binary
+crewai
+crewai_tools
