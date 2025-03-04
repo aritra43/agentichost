@@ -2,15 +2,19 @@ import streamlit as st
 import crew
 from crew import BrdToSrs
 import os
-import sys
-
-# Force Python to use pysqlite3 instead of system sqlite3
-os.environ["PYTHON_SQLITE_LIBRARY"] = "pysqlite3"
-
 import sqlite3
+import streamlit as st
+
+# Force Python to use system-installed SQLite instead of the outdated one
+os.environ["LD_LIBRARY_PATH"] = "/usr/lib"
+os.environ["PYTHON_SQLITE_LIBRARY"] = "sqlite3"
+
+# Print SQLite version to verify fix
+st.write("SQLite Version:", sqlite3.sqlite_version)
 
 # Now import ChromaDB
 import chromadb
+
 
 #StreamLit page config
 st.set_page_config(page_title="BRD to SRS converter", page_icon="📝", layout="wide")
