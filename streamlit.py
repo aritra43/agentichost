@@ -14,6 +14,11 @@ st.write("SQLite Version:", sqlite3.sqlite_version)
 
 # Now import ChromaDB
 import chromadb
+import subprocess
+
+# Upgrade pip
+subprocess.run(["pip", "install", "--upgrade", "pip"], check=True)
+
 
 
 #StreamLit page config
