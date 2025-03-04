@@ -2,5 +2,5 @@ streamlit
 crewai
 crewai_tools
 pip>=25.0.1
-sqlite3>=3.35.0
+sqlite3
 chromadb>=0.4.0
