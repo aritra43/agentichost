@@ -2,4 +2,7 @@ pip==25.0.1
 crewai
 crewai_tools
 python-dotenv
-chromadb
+streamlit
+chromadb>=0.4.0
+pysqlite3-binary
+
