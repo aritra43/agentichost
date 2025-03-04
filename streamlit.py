@@ -8,10 +8,6 @@ import sys
 os.environ["PYTHON_SQLITE_LIBRARY"] = "pysqlite3"
 
 import sqlite3
-import streamlit as st
-
-# Verify SQLite version
-st.write("SQLite Version:", sqlite3.sqlite_version)
 
 # Now import ChromaDB
 import chromadb
