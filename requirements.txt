@@ -1,5 +1,4 @@
 pip==25.0.1
-sqlite3
 crewai
 crewai_tools
 python-dotenv
