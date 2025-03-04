@@ -1,6 +1,6 @@
 pip>=25.0.1
-streamlit
+pysqlite3-binary
 chromadb>=0.4.0
-pip install pysqlite3-binary
+streamlit
 crewai
 crewai_tools
